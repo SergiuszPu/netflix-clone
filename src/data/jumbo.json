@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Oglądaj na telewizorze.",
+    "subTitle": "Oglądaj na telewizorach Smart TV, konsolach PlayStation i Xbox, odtwarzaczach Chromecast, Apple TV oraz Blu-ray i nie tylko.",
+    "image": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png",
+    "alt": "Tiger King on Netflix",
+    "video": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v",
+    "direction": "row"
+  },
+  {
+    "id": 2,
+    "title": "Pobierz ulubione tytuły i oglądaj offline.",
+    "subTitle": "Zapisz ulubione tytuły, aby zawsze mieć coś do obejrzenia.",
+    "image": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg",
+    "alt": "Watch on mobile",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 3,
+    "title": "Oglądaj wszędzie.",
+    "subTitle": "Oglądaj filmy, seriale i programy bez ograniczeń na telefonie, tablecie, laptopie, telewizorze... Bez dodatkowych opłat.",
+    "image": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png",
+    "alt": "Money Heist on Netflix",
+    "direction": "row"
+  }
+]
