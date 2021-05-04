@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './faq.scss';
-import data from '../../data/faqs.json';
-import icon from '../../icons/add.png';
-import str from '../../icons/close-slim.png';
-import chevron from '../../icons/chevron-right.png';
+import data from '../../../data/faqs.json';
+import icon from '../../../data/icons/add.png';
+import str from '../../../data/icons/close-slim.png';
+import chevron from '../../../data/icons/chevron-right.png';
 
 function Faq() {
   const [toggleShow, setToggleShow] = useState(0);

@@ -1,8 +1,8 @@
 import React from 'react';
-import Faq from './components/faq/Faq';
-import Footer from './components/footer/Footer';
-import Jumbotron from './components/jumbotron/Jumbotron';
-import Header from './components/header/Header';
+import Faq from './components/home/faq/Faq';
+import Footer from './components/home/footer/Footer';
+import Jumbotron from './components/home/jumbotron/Jumbotron';
+import Header from './components/home/header/Header';
 
 function App() {
   return (

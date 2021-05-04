@@ -1,5 +1,4 @@
-@import '../../styles/styles.scss';
-
+@import '../../../styles/styles.scss';
 .wrapper {
     display: flex;
     flex-wrap: nowrap;
@@ -45,22 +44,25 @@
     video {
         z-index: 1;
         width: 65%;
-        // max-width: 80%;
-        // height: auto;
         position: absolute;
         left: 75px;
         top: 90px;
         object-fit: contain;
+        @media (max-width:1000px) {
+            top:55px;
+            left: 45px;
+        }
+        @media (max-width:600px) {
+            top:62px;
+            left: 75px;
+        }
     }
 }
 img {
     z-index: 100;
     max-width: 90%;
     height: auto;
-    // position: relative;
 }
-
-
 
 .row {
     flex-direction: row;
