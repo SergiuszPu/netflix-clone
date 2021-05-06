@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.scss';
-import chevron from '../../../data/icons/chevron-right.png';
+import chevron from '../../data/icons/chevron-right.png';
+import { Link } from 'react-router-dom';
 
 function header() {
   return (
@@ -18,7 +19,7 @@ function header() {
                 <option>Angielski</option>
               </select>
             </div>
-            <a href="#">Zaloguj się</a>
+            <Link to="/signin" href="#">Zaloguj się</Link>
           </div>
         </div>
 

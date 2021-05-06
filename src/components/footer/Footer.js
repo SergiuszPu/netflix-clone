@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.scss';
-import data from '../../../data/footer.json';
+import data from '../../data/footer.json';
 
 function Footer() {
   return (
