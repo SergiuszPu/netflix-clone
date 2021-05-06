@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-// import Login from '../login/Login';
 import './head.scss';
 
 // eslint-disable-next-line react/prop-types

@@ -3,7 +3,7 @@ import Footer from '../../components/footer/Footer';
 import Head from '../../components/head/Head';
 import Login from '../../components/login/Login';
 
-function Signin() {
+function SignIn() {
   return (
     <div>
       <Head>
@@ -14,4 +14,4 @@ function Signin() {
   );
 }
 
-export default Signin;
+export default SignIn;

@@ -19,7 +19,7 @@ function Login() {
       .auth()
       .signInWithEmailAndPassword(emailAddress, password)
       .then(() => {
-        history.push('/home');
+        history.push('/browse');
       })
       .catch((error) => {
         setEmailAddress('');
