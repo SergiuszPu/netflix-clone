@@ -3,7 +3,7 @@ import './prevue.scss';
 
 // eslint-disable-next-line react/prop-types
 function Prevue({title, subTitle, image, alt, direction, video}) {
-  // console.log('image', image);
+
   return (
     <>
       <div className={direction === 'row' ? 'wrapper row' : 'wrapper reverse'}>

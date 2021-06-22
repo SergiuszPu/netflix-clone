@@ -25,7 +25,7 @@ function Signup() {
           displayName: firstName,
         })
           .then(() => {
-            history.push('/home');
+            history.push('/');
           })
       )
       .catch((error) => {

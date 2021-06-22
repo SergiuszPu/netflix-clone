@@ -57,6 +57,10 @@
             top:62px;
             left: 75px;
         }
+        @media (max-width:400px) {
+            top:48px;
+            left: 60px;
+        }
     }
 }
 img {

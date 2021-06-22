@@ -9,6 +9,11 @@ export default function useAuthListener() {
     const listener = firebase.auth().onAuthStateChanged((authUser) => {
       console.log('auth',authUser);
       if(authUser) {
+        // const now = new Date();
+        // const item = {
+        //   value: authUser,
+        //   expiry: now.getDate() + 1000,
+        // };
         localStorage.setItem('authUser', JSON.stringify(authUser));
         setUser(authUser);
       } else {
@@ -18,7 +23,6 @@ export default function useAuthListener() {
     });
     return () => listener();
   }, []);
-
 
   return { user };
 }

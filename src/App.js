@@ -8,8 +8,8 @@ import Browse from './screen/browse/Browse';
 import useAuthListener  from './components/hooks/listener';
 
 function App() {
-  const { user } = useAuthListener();
-  console.log('user12', user);
+  const { user } = useAuthListener(); 
+  // const { user } = '';
 
   return (
     <Router>
@@ -23,7 +23,7 @@ function App() {
         <ProtectedRoute user={user} path={'/browse'}>
           <Browse />
         </ProtectedRoute>
-        <IsUserRedirect user={user} loggedInPath={'/browse'} path={'/home'}>
+        <IsUserRedirect user={user} loggedInPath={'/browse'} path={'/'}>
           <Home />
         </IsUserRedirect>
       </Switch>
